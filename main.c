@@ -3,8 +3,7 @@
 #include <dirent.h>
 #include <errno.h>
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     if (argc > 2) {
         fprintf(stderr, "Usage: %s [directory]\n", argv[0]);
         return EXIT_FAILURE;

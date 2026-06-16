@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
         if (entry->d_name[0] == '.') {
             continue;
         }
-        printf("", entry->d_name);
+        printf("%s\n", entry->d_name);
     }
 
     closedir(dir);

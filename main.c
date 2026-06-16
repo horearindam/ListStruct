@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
-    printf("Hello LS\n");
+int main(int argc, char *argv[]) {
+    printf("%s\n", argv[0]);
     return 0;
 }

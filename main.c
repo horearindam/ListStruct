@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    const char *path = (argc > 1) ? argv[0] : ".";
+    const char *path = (argc > 1) ? argv[1] : ".";
 
-    printf("%s\n", argv[0]);
+    printf("%s\n", path);
     return 0;
 }
